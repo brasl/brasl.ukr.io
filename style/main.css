@@ -1,0 +1,314 @@
+body{
+	padding: 0;
+	margin: 0;
+	background-color: #deeaff;
+	font-family: Arial;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+
+}
+
+section{
+	background-color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	max-width: 1000px;
+}
+
+.img-text p{
+	color: black;
+	font-size: 18px;
+	position: absolute;
+	margin: 70px 0 0 190px;
+}
+
+.img-text b{
+	color: white;
+	text-shadow: red 1px 1px 0, red -1px -1px 0, 
+                 red -1px 1px 0, red 1px -1px 0;
+    position: absolute;
+    margin-top: -35px;
+    font-size: 24px;
+}
+
+.text{
+	color: #239fcd;
+	padding: 28px 0 0 20px;
+	font-size: 20px;
+	float: left;
+}
+
+.text2{
+	font-size: 20px;
+	float: right;
+	padding: 28px 20px 0 0;
+}
+
+.text3{
+	padding: 15px 0 0 17px;
+	font-size: 28px;
+	float: left;
+}
+
+.text4{
+	font-size: 20px;
+	padding: 15px 60px 0 0;
+	float: right;
+}
+
+.blue{
+	color: #239fcd;
+}
+
+.none{
+	width: 100%;
+	padding-top: 110px;
+}
+
+.menu{
+	max-width: 100%;
+	height: 40px;
+	background: linear-gradient(to top, #1c8eba, #2eb9eb);
+	justify-content: space-around;
+	display: flex;
+}
+
+.menu_block{
+	width: 90px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block2{
+	width: 98px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block3{
+	width: 127px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block4{
+	width: 131px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block5{
+	width: 120px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block6{
+	width: 172px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block7{
+	width: 262;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.menu_block:hover{
+	background-color: #76c8ff;
+}
+
+.menu_block2:hover{
+	background-color: #76c8ff;
+}
+.menu_block3:hover{
+	background-color: #76c8ff;
+}
+.menu_block4:hover{
+	background-color: #76c8ff;
+}
+.menu_block5:hover{
+	background-color: #76c8ff;
+}
+.menu_block6:hover{
+	background-color: #76c8ff;
+}
+.menu_block7:hover{
+	background-color: #76c8ff;
+}
+
+.none2{
+	width: 100%;
+	height: 6px;
+}
+
+div #img-text{
+	width: 100%;
+	height: 200px;
+	margin-top: 200px;
+}
+
+.menu2{
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.menu2_block{
+	max-width: 231px;
+	margin: 268px auto 0 8px;
+	height: 385px;
+	display: inline-block;
+	position: relative;
+	border-radius: 8px;
+	border: 1px solid #bababa;
+	border-radius: 8px;
+	object-fit: none;
+}
+
+.menu2_header{
+	max-width: 235px;
+	height: 48px;
+	background: linear-gradient(to top, #1c8eba, #2eb9eb);
+	border-radius: 8px 8px 0 0;
+	color: white;
+	text-align: center;
+	font-size: 22px;
+}
+
+.clear{
+	clear: both;
+}
+
+
+
+.m_zagolovok{
+	padding-top: 15px;
+}
+
+ .m_text{
+	padding: 5px;
+	color: #353535;	
+}
+
+.m-text span{
+	color: #239fcd;
+}
+
+.decor{
+	text-decoration: underline;
+}
+
+.button{
+	background: linear-gradient(to top, #2eb9eb, #1c8eba);
+	padding: 5px;
+	margin: 10px;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 4px;
+}
+
+.button:hover{
+	background-color: #76c8ff;
+}
+
+.detal{
+	position: absolute;
+	margin: 130px 0 0 420px; 
+}
+
+footer{
+	height: 40px;
+	background: linear-gradient(to top, #1c8eba, #2eb9eb);
+	text-align: center;
+	color: white;
+	margin: 10px 0 10px;
+}
+
+.wrapper{
+	margin: 20px 20px 0 20px;
+	height: auto;
+	border: 1px solid #bababa;
+	border-radius: 8px 8px 0 0;
+}
+
+.header{
+	height: 45px;
+	background: linear-gradient(to top, #1c8eba, #2eb9eb);
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	border-radius: 8px 8px 0 0;
+}
+
+.header .big{
+	padding-top: 10px;
+}
+
+.news{
+	height: 150px;
+	margin: 20px 20px 20px 20px;
+	background-color: white;
+	color: #353535;	
+}
+
+.news img{
+	float: left;
+	padding-right: 15px;
+}
+
+.news-zag{
+	font-size: 16px;
+	margin-left: 13px;
+	text-align: left;
+}
+
+.news-text{
+	font-size: 14px;
+	text-align: left;
+}
+
+.news-text .detal{
+	margin: -10px 0 0 205px;
+}
+
+.wrapper hr{
+	width: 915px;
+	color: #bababa;
+}
+
+.knopki{
+	height: 40px;
+}
+
+.knopki .button2{
+	width: 20px;
+	
+	float: left;
+	background: linear-gradient(to top, #2eb9eb, #1c8eba);
+	padding: 5px;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 -10px 0 20px;
+}
+
+.a-zag{
+	font-size: 22px;
+	color: #353535;
+	margin: 20px;
+}
+
+.about-wrap .news{
+	height: 230px;
+}
+
+.none3{
+	height: 30px;
+}
+
